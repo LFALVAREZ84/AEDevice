@@ -1,0 +1,52 @@
+/* Home.css */
+
+/* Estilos específicos para la página Home */
+h1 {
+  color: #333;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.h3 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out; /* Agregado para el efecto hover en la imagen */
+}
+
+li:hover img {
+  transform: scale(1.1); /* Ajusta el factor de escala según tus preferencias */
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+  text-align: center;
+}

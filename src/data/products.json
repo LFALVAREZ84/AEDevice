@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Producto 1",
+      "image": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/06/microsoft-presenta-nueva-consola-xbox-series-s-carbon-black-doble-capacidad-3055980.jpg?tf=3840x",
+      "price": 100,
+      "description": "Una descripción del producto 1."
+    },
+    {
+      "id": 2,
+      "name": "Producto 2",
+      "image": "https://i.blogs.es/466006/screenshot_8094/1366_2000.jpeg",
+      "price": 200,
+      "description": "Una descripción del producto 2."
+    },
+    {
+      "id": 3,
+      "name": "Producto 3",
+      "image": "https://i.blogs.es/856d38/ps5/1366_2000.jpeg",
+      "price": 300,
+      "description": "Una descripción del producto 3."
+    }
+  ]
+  

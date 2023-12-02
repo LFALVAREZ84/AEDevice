@@ -1,0 +1,141 @@
+* {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    margin: 0px;
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    margin-top: -35px;
+    background-color: #0e0b14;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    position: fixed;
+    font-family: 'Sen', sans-serif;
+    z-index: 3;
+    font-weight: 700;
+}
+
+@media (max-width: 1120px) {
+    .navbar {
+        font-size: small;
+    }
+}
+
+@media (max-width: 1050px) {
+    .navbar {
+        font-size: smaller;
+
+    }
+}
+
+@media (max-width: 980px) {
+    .navbar {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        font-size: xx-small;
+
+    }
+}
+
+@media (max-width:550px) {
+    .navbar li {
+        padding: 3px;
+        margin: 3px;
+    }
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.letras {
+    padding: 22px;
+    text-decoration: none;
+    position: relative;
+}
+
+.letras i {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.letras a {
+    padding-bottom: 5px;
+}
+
+.letrasnavbar::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2.5px;
+    background-color: #646cff;
+    bottom: 18px;
+    left: 23px;
+    border-radius: 3px;
+
+}
+
+.letrasnavbar:hover::after {
+    width: 44%;
+    transition-duration: 250ms;
+    transition-property: all;
+    transition-timing-function: ease;
+
+}
+
+.letrasnavbar1::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2.5px;
+    background-color: #f9f9f9;
+    bottom: 18px;
+    left: 45px;
+    border-radius: 3px;
+}
+
+.letrasnavbar1:hover::after {
+    width: 55%;
+    transition-duration: 250ms;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+@media (max-width:830px) {
+    .letrasnavbar:hover::after {
+        width: 0%;
+    }
+}
+
+@media (max-width:830px) {
+    .letrasnavbar1:hover::after {
+        width: 0%;
+    }
+}
+
+#letras {
+    padding: 23px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+@media(max-width: 550px) {
+    .letras {
+        padding: 10px;
+        margin: 0px;
+    }
+}

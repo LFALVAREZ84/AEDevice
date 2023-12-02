@@ -1,0 +1,25 @@
+/* Checkout.css */
+
+/* Estilos específicos para la página de pago */
+h1 {
+    color: #4285f4;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  

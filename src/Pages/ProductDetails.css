@@ -1,0 +1,25 @@
+/* ProductDetails.css */
+
+/* Estilos específicos para la página de detalles del producto */
+h1 {
+    color: #4285f4;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
